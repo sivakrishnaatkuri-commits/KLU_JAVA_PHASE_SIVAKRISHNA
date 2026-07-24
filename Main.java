@@ -1,49 +1,50 @@
-// import java.util.*;
-// class Main {
+// import java.util.Scanner;
+
+// public class EvenOdd {
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
-//         int a = sc.nextInt();
-//         System.out.println("This a Integer: "+a);
+
+//         System.out.print("Enter a number: ");
+//         int num = sc.nextInt();
+
+//         if (num % 2 == 0)
+//             System.out.println("Even Number");
+//         else
+//             System.out.println("Odd Number");
 //     }
 // }
 
-// import java.util.*;
-// class Main{
-//     public static void main(String[] args)
-//     {
+// import java.util.Scanner;
+
+// public class LeapYear {
+//     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
-//         float a = sc.nextFloat();
-//         System.out.println("This is Float: "+a);
-        
+
+//         System.out.print("Enter a year: ");
+//         int year = sc.nextInt();
+
+//         if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
+//             System.out.println(year + " is a Leap Year");
+//         } else {
+//             System.out.println(year + " is Not a Leap Year");
+//         }
+
+//         sc.close();
 //     }
 // }
 
-// import java.util.*;
-// class Main{
-//     public static void main(String[] args)
-//     {
-//         Scanner sc = new Scanner(System.in);
-//         double a = sc.nextDouble();
-//         System.out.println("This is Double: "+a);
-//     }
-// }
+// import java.util.Scanner;
 
-// import java.util.*;
-// class Main{
-//     public static void main(String[] args)
-//     {
+// public class ZeroCheck {
+//     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
-//         String s = sc.next();
-//         System.out.println("This is String: "+s);
-//     }
-// }
 
-// import java.util.*;
-// class Main{
-//     public static void main(String[] args)
-//     {
-//         Scanner sc = new Scanner(System.in);
-//         String s = sc.nextLine();
-//         System.out.println("This is String sentence: "+s);
+//         System.out.print("Enter Number: ");
+//         int num = sc.nextInt();
+
+//         if (num == 0)
+//             System.out.println("Number is Zero");
+//         else
+//             System.out.println("Number is Not Zero");
 //     }
 // }
